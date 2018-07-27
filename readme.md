@@ -34,8 +34,8 @@ PTA keeps the children safe!
 ## Due Care vs Due Diligence
 Imagine you have a pool. To protect children and animals from drowning in your pool, you exercise due care by building a fence around the pool. Regularly checking the fence for vulnerabilities and correcting them demonstrates due diligence.
 
-Due Care - A vendor engaging in a reasonable and expected manner for the circumstance
-Due Diligence - Demonstrates due care
+* Due Care - A vendor engaging in a reasonable and expected manner for the circumstance
+* Due Diligence - Demonstrates due care
 
 # Domain 3: Security Engineering
 ## Security Models
@@ -49,11 +49,25 @@ You must read before you can write. So reading is "simpler" than writing. This m
 
 ### Integrity vs Confidentiality models
 * Integrity Models have the letter "I" in them.
-* Bell LaPadula and Biba -  Since Biba has an "I" I it, it is integrity. The two are opposite so Bell is confidentiality. For some something confidential you don't want a subject reading up above their security. So Bell has a no read up property.
+* Bell LaPadula and Biba -  Since Biba has an "I" I it, it is integrity. The two are opposite so Bell is confidentiality. For some something confidential you don't want a subject reading up above their security. So Bell has a no read up property. With this we can extract read and write for both Biba and Bell
+
+|Bell       |Biba           |
+|-----------|---------------|
+|No Read Up |Read Up        |
+|Write Down |No Write Down  |
+
 
 # Domain 4: Communications & Network Security
+## Factorization of Primes vs Discreet Logs
+Found this somewhere else but it made me laugh and was easy to remember:
+Mr. Diffie-Hellman and Dr. ElGamal are phantom poopers! They leave discreet logs!
+
 ## DES Modes of Operation
-Most important thing here is remember strength from weakest to strongest. No clear mneumonic to do this, except remember the first and the last. The center 3 are alphabetical by name and/or abbreviation.
+Most important thing here is remember strength from weakest to strongest. No clear mnemonic to do this. My approach:
+* Remember the first and the last.
+* The center 3 are alphabetical by name and/or abbreviation.
+
+
 1. ECB - Electronic Code Block (also the only one that doesn't support an initialization vector)
 2. CBC - Cipher Block Chaining
 3. CFB - Cipher Feedback
@@ -74,7 +88,7 @@ IaaS, PaaS, SaaS - [Remember Pizza as a Service](https://medium.com/@pkerrison/p
 |D    |Dent         |Combustible metals           |
 |K    |Kitchen      |Oils and fats                |
 
-# Domain8: Software Development Security
+# Domain 8: Software Development Security
 ## Ring computing model
 
 Remember "Zero KODU"
