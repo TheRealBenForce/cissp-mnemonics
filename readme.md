@@ -10,7 +10,7 @@ SLE = AV * EF
 ARO
  - Annual Rate of Occurance
 
-ALE = ARO - SLE
+ALE = ARO * SLE
  - :beer: = :heart_eyes: (get it?)
   - Ale makes arousal
  - Annual Loss Expectancy = Rate of Occurrence - Single Loss Expectancy
@@ -52,6 +52,15 @@ You must read before you can write. So reading is "simpler" than writing. This m
 * Bell LaPadula and Biba -  Since Biba has an "I" I it, it is integrity. The two are opposite so Bell is confidentiality. For some something confidential you don't want a subject reading up above their security. So Bell has a no read up property.
 
 # Domain 4: Communications & Network Security
+## DES Modes of Operation
+Most important thing here is remember strength from weakest to strongest. No clear mneumonic to do this, except remember the first and the last. The center 3 are alphabetical by name and/or abbreviation.
+1. ECB - Electronic Code Block (also the only one that doesn't support an initialization vector)
+2. CBC - Cipher Block Chaining
+3. CFB - Cipher Feedback
+4. OFB - Output Feedback Mode
+5. CTR - Counter
+
+
 ## Cloud Computing Operating Model
 IaaS, PaaS, SaaS - [Remember Pizza as a Service](https://medium.com/@pkerrison/pizza-as-a-service-2-0-5085cd4c365e)
 
