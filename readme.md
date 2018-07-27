@@ -40,14 +40,14 @@ Due Diligence - Demonstrates due care
 # Domain 3: Security Engineering
 ## Security Models
 
-## Brewer-Nash
+### Brewer-Nash
 Brewer-Nash is also known as "The Chinese Wall" and protects against conflict of interest. Remember Chinese "brew" tea. :tea:
 
-## Simple Security vs \*-Security
+### Simple Security vs \*-Security
 
 You must read before you can write. So reading is "simpler" than writing. This makes reading the simple security model and writing the \*-security model.
 
-## Integrity vs Confidentiality models
+### Integrity vs Confidentiality models
 * Integrity Models have the letter "I" in them.
 * Bell LaPadula and Biba -  Since Biba has an "I" I it, it is integrity. The two are opposite so Bell is confidentiality. For some something confidential you don't want a subject reading up above their security. So Bell has a no read up property.
 
